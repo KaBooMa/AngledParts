@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngledParts", "AngledParts.csproj", "{BBEB00B2-4A49-46A2-A151-03E94DCE05DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBEB00B2-4A49-46A2-A151-03E94DCE05DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBEB00B2-4A49-46A2-A151-03E94DCE05DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBEB00B2-4A49-46A2-A151-03E94DCE05DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBEB00B2-4A49-46A2-A151-03E94DCE05DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20BD1002-1A8F-4E27-A18D-D4CE6145705F}
+	EndGlobalSection
+EndGlobal

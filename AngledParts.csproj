@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>AngledParts</AssemblyName>
+    <Description>Adds parts for angles without node skipping!</Description>
+    <Version>0.1</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    <RestoreAdditionalProjectSources>
+      https://api.nuget.org/v3/index.json;
+      https://nuget.bepinex.dev/v3/index.json
+    </RestoreAdditionalProjectSources>
+    <RootNamespace>AngledParts</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BepInEx.Unity.IL2CPP" Version="6.0.0-be.*" IncludeAssets="compile" />
+    <PackageReference Include="BepInEx.PluginInfoProps" Version="2.*" />
+    <Reference Include="GearLib">
+      <HintPath>lib\GearLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>lib\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="SmashHammer">
+      <HintPath>lib\SmashHammer.dll</HintPath>
+    </Reference>
+    <Reference Include="SmashHammer.GearBlocks">
+      <HintPath>lib\SmashHammer.GearBlocks.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>lib\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>lib\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
