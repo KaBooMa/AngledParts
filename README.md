@@ -1,5 +1,6 @@
 # Angled Parts in GearBlocks!
-This is a GearBlocks mod that aims to add angled parts to the game. This gives the player more placement options without needing to node skip.
+This is a GearBlocks mod that aims to add angled parts to the game. This gives the player more placement options without needing to node skip.\
+![Alt Text](imgs/example.png)
 
 ## How to install
 **Please refer to the GearLib documentation on how to setup BepInEx for your GearBlocks for modding.**
