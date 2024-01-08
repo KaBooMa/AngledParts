@@ -7,7 +7,7 @@ namespace AngledParts.Parts;
 
 class Bracket_45 : Part
 {
-    public Bracket_45() : base("AngledParts/assets/angled_parts", "45_bracket", 748933236416855, "45 Degree Bracket", "Blocks", 0.5f)
+    public Bracket_45() : base("AngledParts/assets/angled_parts", "45_bracket", 748933236416855, "45 Degree Bracket", "Blocks", 0.5f, true, true)
     {
         // Bottom Attachments
         AddAttachmentPoint(
@@ -15,7 +15,8 @@ class Bracket_45 : Part
             AttachmentTypeFlags.RotaryBearing | AttachmentTypeFlags.LinearBearing | AttachmentTypeFlags.LinearRotaryBearing,
             AlignmentFlags.IsInterior | AlignmentFlags.IsBidirectional | AlignmentFlags.IsFemale,
             new Vector3(0f, 0f, 0f),
-            new Vector3(45, 270, 90)
+            new Vector3(45, 270, 90),
+            Vector3Int.one
         );
         
         AddAttachmentPoint(
@@ -23,7 +24,8 @@ class Bracket_45 : Part
             AttachmentTypeFlags.Fixed,
             AlignmentFlags.UNUSED,
             new Vector3(0f, 0f, 0.05f),
-            new Vector3(90, 0, 0)
+            new Vector3(90, 0, 0),
+            Vector3Int.one
         );
 
         AddAttachmentPoint(
@@ -31,7 +33,8 @@ class Bracket_45 : Part
             AttachmentTypeFlags.Fixed,
             AlignmentFlags.UNUSED,
             new Vector3(0f, 0f, -0.05f),
-            new Vector3(270, 0, 0)
+            new Vector3(270, 0, 0),
+            Vector3Int.one
         );
         
         AddAttachmentPoint(
@@ -39,7 +42,8 @@ class Bracket_45 : Part
             AttachmentTypeFlags.Fixed,
             AlignmentFlags.UNUSED,
             new Vector3(0f, -0.05f, 0f),
-            new Vector3(0, 180, 180)
+            new Vector3(0, 180, 180),
+            Vector3Int.one
         );
 
         // Top Attachments 1
@@ -73,7 +77,8 @@ class Bracket_45 : Part
             AttachmentTypeFlags.RotaryBearing | AttachmentTypeFlags.LinearBearing | AttachmentTypeFlags.LinearRotaryBearing,
             AlignmentFlags.IsInterior | AlignmentFlags.IsBidirectional | AlignmentFlags.IsFemale,
             new Vector3(0.1f, 0.1f, 0f),
-            new Vector3(45, 270, 90)
+            new Vector3(45, 270, 90),
+            Vector3Int.one
         );
 
         AddAttachmentPoint(
@@ -81,7 +86,8 @@ class Bracket_45 : Part
             AttachmentTypeFlags.Fixed,
             AlignmentFlags.UNUSED,
             new Vector3(0.1f, 0.1f, -0.05f),
-            new Vector3(45, 270, 90)
+            new Vector3(45, 270, 90),
+            Vector3Int.one
         );
         
         AddAttachmentPoint(
@@ -89,7 +95,8 @@ class Bracket_45 : Part
             AttachmentTypeFlags.Fixed,
             AlignmentFlags.UNUSED,
             new Vector3(0.1f, 0.1f, 0.05f),
-            new Vector3(45, 90, 90)
+            new Vector3(45, 90, 90),
+            Vector3Int.one
         );
     }
 }

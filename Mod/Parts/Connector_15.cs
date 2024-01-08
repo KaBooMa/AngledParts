@@ -7,14 +7,16 @@ namespace AngledParts.Parts;
 
 class Connector_15 : Part
 {
-    public Connector_15() : base("AngledParts/assets/angled_parts", "15_connector", 650515961663019, "Angle 15", "Connectors", 0.5f)
+    public Connector_15() : base("AngledParts/assets/angled_parts", "15_connector", 650515961663019, "Angle 15", "Connectors", 0.5f, true, true)
     {
         AddAttachmentPoint(
             "Inside_Multiple",
-            AttachmentTypeFlags.RotaryBearing | AttachmentTypeFlags.LinearBearing | AttachmentTypeFlags.LinearRotaryBearing,
+            AttachmentTypeFlags.RotaryBearing | AttachmentTypeFlags.LinearBearing | AttachmentTypeFlags.LinearRotaryBearing | AttachmentTypeFlags.Fixed,
             AlignmentFlags.IsInterior | AlignmentFlags.IsBidirectional | AlignmentFlags.IsFemale,
             new Vector3(0f, 0f, 0f),
-            new Vector3(0, 0, 0)
+            new Vector3(0, 0, 0),
+            Vector3Int.one,
+            true
         );
 
         AddAttachmentPoint(
@@ -22,7 +24,9 @@ class Connector_15 : Part
             AttachmentTypeFlags.RotaryBearing | AttachmentTypeFlags.Fixed,
             AlignmentFlags.IsInterior | AlignmentFlags.IsFemale,
             new Vector3(0.027f, 0f, 0.1f),
-            new Vector3(90, 15, 0)
+            new Vector3(90, 15, 0),
+            Vector3Int.one,
+            true
         );
     }
 }
