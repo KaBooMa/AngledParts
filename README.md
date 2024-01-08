@@ -8,3 +8,7 @@ This is a GearBlocks mod that aims to add angled parts to the game. This gives t
 GearLib documentation here: https://github.com/KaBooMa/GearLib
 
 Simply download the latest release and extract the AngledParts folder into your BepInEx/plugins folder.
+
+## Credits
+All models are maintained by alexrrr (Thank you Alex ❤️!)\
+Thanks to SilverThorn for scaling models for importing in game!!
