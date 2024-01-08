@@ -1,0 +1,39 @@
+ManifestFileVersion: 0
+CRC: 576194166
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 9b3956c1bb74e6558fb2edee8fc0f1ba
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: bb3f49cbf9ab82d37cd7fae230ed5d11
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 64
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Parts/19_connector.fbx
+- Assets/Parts/small_angle_bracket.fbx
+- Assets/Parts/45_bracket.fbx
+- Assets/Parts/15_connector.fbx
+- Assets/Parts/big_angle_bracket.fbx
+- Assets/Parts/medium_angle_bracket.fbx
+- Assets/Parts/22_connector.fbx
+- Assets/Parts/V_bracket.fbx
+- Assets/Parts/45_connector.fbx
+Dependencies: []
