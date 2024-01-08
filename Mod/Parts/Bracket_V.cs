@@ -16,7 +16,8 @@ class Bracket_V : Part
             AlignmentFlags.IsInterior | AlignmentFlags.IsBidirectional | AlignmentFlags.IsFemale,
             new Vector3(0f, 0f, 0f),
             new Vector3(45, 270, 90),
-            Vector3Int.one
+            Vector3Int.one,
+            true
         );
 
         AddAttachmentPoint(
@@ -25,7 +26,8 @@ class Bracket_V : Part
             AlignmentFlags.UNUSED,
             new Vector3(0f, 0.175f, 0f),
             new Vector3(0, 0, 0),
-            Vector3Int.one
+            Vector3Int.one,
+            true
         );
 
         // Bottom Attachments
@@ -35,7 +37,8 @@ class Bracket_V : Part
             AlignmentFlags.UNUSED,
             new Vector3(0f, 0f, 0.05f),
             new Vector3(90, 0, 0),
-            Vector3Int.one
+            Vector3Int.one,
+            true
         );
 
         AddAttachmentPoint(
@@ -44,7 +47,8 @@ class Bracket_V : Part
             AlignmentFlags.UNUSED,
             new Vector3(0f, 0f, -0.05f),
             new Vector3(270, 0, 0),
-            Vector3Int.one
+            Vector3Int.one,
+            true
         );
         
         AddAttachmentPoint(
@@ -53,7 +57,8 @@ class Bracket_V : Part
             AlignmentFlags.UNUSED,
             new Vector3(0f, -0.05f, 0f),
             new Vector3(0, 180, 180),
-            Vector3Int.one
+            Vector3Int.one,
+            true
         );
 
         // Top Attachments 1
@@ -63,7 +68,8 @@ class Bracket_V : Part
             AlignmentFlags.IsInterior | AlignmentFlags.IsBidirectional | AlignmentFlags.IsFemale,
             new Vector3(-0.1f, 0.1f, 0f),
             new Vector3(45, 270, 90),
-            Vector3Int.one
+            Vector3Int.one,
+            true
         );
 
         AddAttachmentPoint(
@@ -72,7 +78,8 @@ class Bracket_V : Part
             AlignmentFlags.UNUSED,
             new Vector3(-0.1f, 0.1f, -0.05f),
             new Vector3(45, 270, 90),
-            Vector3Int.one
+            Vector3Int.one,
+            true
         );
         
         AddAttachmentPoint(
@@ -81,7 +88,8 @@ class Bracket_V : Part
             AlignmentFlags.UNUSED,
             new Vector3(-0.1f, 0.1f, 0.05f),
             new Vector3(45, 90, 90),
-            Vector3Int.one
+            Vector3Int.one,
+            true
         );
 
         // Unusable until MeshColliders
@@ -91,7 +99,8 @@ class Bracket_V : Part
             AlignmentFlags.UNUSED,
             new Vector3(0.135f, 0.135f, 0f),
             new Vector3(45, 90, 0),
-            Vector3Int.one
+            Vector3Int.one,
+            true
         );
         
         // Top Attachments 2
@@ -101,7 +110,8 @@ class Bracket_V : Part
             AlignmentFlags.IsInterior | AlignmentFlags.IsBidirectional | AlignmentFlags.IsFemale,
             new Vector3(0.1f, 0.1f, 0f),
             new Vector3(45, 270, 90),
-            Vector3Int.one
+            Vector3Int.one,
+            true
         );
 
         AddAttachmentPoint(
@@ -110,7 +120,8 @@ class Bracket_V : Part
             AlignmentFlags.UNUSED,
             new Vector3(0.1f, 0.1f, -0.05f),
             new Vector3(45, 270, 90),
-            Vector3Int.one
+            Vector3Int.one,
+            true
         );
         
         AddAttachmentPoint(
@@ -119,7 +130,8 @@ class Bracket_V : Part
             AlignmentFlags.UNUSED,
             new Vector3(0.1f, 0.1f, 0.05f),
             new Vector3(45, 90, 90),
-            Vector3Int.one
+            Vector3Int.one,
+            true
         );
 
         // Unusable until MeshColliders
